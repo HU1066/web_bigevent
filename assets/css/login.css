@@ -4,7 +4,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background: url('/code/assets/images/login_bg.jpg') no-repeat center;
+  background: url('../images/login_bg.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -14,13 +14,13 @@ body {
   background-color: #fff;
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top:50%;
+  transform: translate(-50%,-50%);
 }
 
 .title-box {
   height: 60px;
-  background: url('/code/assets/images/login_title.png') no-repeat center;
+  background: url("../images/login_title.png") no-repeat center;
 }
 
 .reg-box {
@@ -36,7 +36,7 @@ body {
   justify-content: flex-end;
 }
 
-.links a {
+.links a{
   font-size: 12px;
 }
 
@@ -50,6 +50,6 @@ body {
   top: 10px;
 }
 
-.layui-input {
+.layui-input{
   padding-left: 32px;
 }
